@@ -43,7 +43,7 @@ const Start = () => {
     
                     .from(".idea-6 ", { scale: 1, opacity: 0, ease: Expo.easeInOut, duration: 0.8, delay: 1 })
                     .to(".idea-6", { scale: 3, opacity: 0, ease: Expo.easeOut, duration: 1 })
-                    .to(".idea-6", { scale: 0.2, opacity: 1, ease: Expo.easeOut, duration: 2 })
+                    .to(".idea-6", { scale: 0.5, opacity: 1, ease: Expo.easeOut, duration: 2 })
                     .to(".idea-6", { scale: 3, opacity: 0, ease: Expo.easeOut, duration: 0.8, delay: 0.1 })
     
     
@@ -66,25 +66,25 @@ const Start = () => {
             </div>
 
             <div className="text-center absolute top-0 left-0 overflow-hidden h-full w-full flex  items-center justify-center">
-                <p className="three text-lg md:text-3xl opacity-0">{data.text1}</p>
+                <p className="three text-lg font-bold md:text-3xl opacity-0">{data.text1}</p>
             </div>
 
             <div className="absolute top-0 overflow-hidden h-full w-full left-0 right-0">
                 <div className="relative w-screen h-screen overflow-hidden">
-                    <p className="idea-3 w-full h-full text-2xl flex flex-col gap-4 md:flex-row items-center justify-center opacity-0">
+                    <p className="idea-3 w-full h-full font-bold text-2xl flex flex-col gap-4 md:flex-row items-center justify-center opacity-0">
                         <span>{data.text4}</span>
-                        <strong className="inline-block px-2 py-1 mt-2 md:mt-0 rounded">
+                        <strong className="inline-block font-bold px-2 py-1 mt-2 md:mt-0 rounded">
                             {data.text4Adjective}
                         </strong>
                     </p>
                     <p className="idea-4 w-full h-full text-2xl text-center absolute top-0 opacity-0 flex items-center justify-center">{data.text5Entry}</p>
-                    <p className="idea-5 w-full h-full text-2xl absolute top-0 md:text-4xl flex items-center justify-center opacity-0">
+                    <p className="idea-5 w-full h-full font-bold text-2xl absolute top-0 md:text-4xl flex items-center justify-center opacity-0">
                         <span>{data.text5Content}</span>
-                        <span className="smiley ml-2">{data.smiley}</span>
+                        <span className="smiley ml-2 font-bold">{data.smiley}</span>
                     </p>
                     <p className="idea-6 w-full h-full text-[12rem] absolute top-0 mx-auto font-bold flex items-center justify-center opacity-0">
-                        <span className="inline-block">{data.bigTextPart1}</span>
-                        <span className="inline-block">{data.bigTextPart2}</span>
+                        <span className="inline-block font-extrabold">{data.bigTextPart1}</span>
+                        <span className="inline-block font-extrabold">{data.bigTextPart2}</span>
                     </p>
                 </div>
             </div>
