@@ -4,7 +4,7 @@ const Final = () => {
   return (
     <div className="w-screen h-screen flex justify-center items-center bg-black relative">
       <video
-        className="w-[80vw] h-auto"
+        className="w-[60vw] h-auto"
         autoPlay
         loop
         controls
@@ -13,7 +13,6 @@ const Final = () => {
         Your browser does not support the video tag.
       </video>
 
-      {/* Flipped GIF at the bottom-right */}
           <p className="absolute bottom-5 left-5  text-white font-bold bg-purple-600 px-3 py-1 rounded-2xl">Harry Potter dekhle😭</p>
       <div className="absolute bottom-4 right-4 flex items-center space-x-2 ">
         <img
