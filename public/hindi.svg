@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 100">
+  <!-- Transparent background -->
+  <rect width="100%" height="100%" fill="transparent" rx="15" ry="15" />
+  
+  <!-- Text "महनत" with italic font style -->
+  <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-family="Arial, sans-serif" font-size="32" fill="black" font-weight="bold" font-style="italic">
+    मेहनत
+  </text>
+</svg>
