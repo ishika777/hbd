@@ -88,10 +88,10 @@ export default function Terminal() {
     };
 
     return (
-        <div className="h-screen  w-screen bg-black text-green-300 font-mono p-6 flex flex-col justify-center">
+        <div className="max-h-screen h-screen  w-screen bg-black text-green-300 font-mono p-6 flex flex-col justify-center">
             <div
                 ref={terminalRef}
-                className="terminal h-[80vh] overflow-hidden border border-green-500 p-4 bg-gray-900 overflow-y-auto shadow-lg rounded-md"
+                className="terminal h-[70vh] overflow-hidden border border-green-500 p-4 bg-gray-900 overflow-y-auto shadow-lg rounded-md"
                 style={{ fontFamily: `"Fira Code", "Courier New", monospace` }} // Real terminal font
             >
                 {log.map((line, index) => (
