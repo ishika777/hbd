@@ -10,7 +10,7 @@ const BirthdayWishPage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowButton(true);
-    }, 10000); // 10 seconds
+    }, 13000); // 10 seconds
 
     return () => clearTimeout(timer);
   }, []);
@@ -29,9 +29,8 @@ const BirthdayWishPage = () => {
             
             <div className="my-6 text-gray-700 space-y-4">
               <p className="font-medium">Happiiiiiiest bday buddy, thanks for the friendship, thank you for everything and for being with me for this whole time.</p>
-              <p>Always follow your ambitions, enjoy every single moment and fill it with your most beautiful smile.</p>
+              <p>Always follow your ambitions, enjoy every single moment and fill them with your smile.</p>
               <p className="text-pink-600 font-medium">And remember, I am always there for you.</p>
-              <p className="italic">A very very happy birthday Ramansh.</p>
             </div>
             
         
